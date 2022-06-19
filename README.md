@@ -80,7 +80,7 @@ Give a ⭐️ if you like this project!
 - Morning Session Teams
 - Stand-Up Teams
 - Microverse TSEs
-- Figma 
+- Cindy Shin from Behance for the design guidelines
 
 ## 📝 License
 

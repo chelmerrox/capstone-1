@@ -9,6 +9,7 @@
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap v5.2.0-beta1
 - Git
 
 ## Preview

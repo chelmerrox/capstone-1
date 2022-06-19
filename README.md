@@ -11,15 +11,17 @@
 - JavaScript
 - Git
 
-## Live Demo
-
-[Previous Live Demo Link](https://raw.githack.com/chelmerrox/capstone-1/main/index.html)
-
-[GitHub Pages Link](https://chelmerrox.github.io/capstone-1/)
-
 ## Preview
 
 ![Website preview](images/preview.png)
+
+## Live Demo
+
+[Live Demo Link](https://raw.githack.com/chelmerrox/capstone-1/main/index.html)
+
+## Video presentation
+
+[My video presentation]()
 
 ## Getting Started
 

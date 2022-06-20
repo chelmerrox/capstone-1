@@ -199,12 +199,13 @@ body {
   }
 
   /* The h1 tag for section-1-1-mobile */
-  .section-1-mobile .heading {
+  .section-1-1-mobile .heading {
     background-image: url("../images/image2.jpg");
     background-repeat: repeat;
     background-position: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 29px;
   }
 
   /* Styles for Section 2 | Photography Niche for mobile screens */
@@ -402,12 +403,13 @@ body {
   }
 
   /* The h1 tag for section-1-1-mobile */
-  .section-1-mobile .heading {
+  .section-1-1-mobile .heading {
     background-image: url("../images/image2.jpg");
     background-repeat: repeat;
     background-position: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 46px;
   }
 
   /* Styles for Section 2 | Photography Niche */

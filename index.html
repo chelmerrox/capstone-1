@@ -8,12 +8,43 @@
     <link href="styles/style.css" type="text/css" rel="stylesheet"/>
     <!--Link to Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--Link to font-families-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <title>Chelmerrox Photography | Smartphone Photography, Oceania, Art, Nature</title>
   </head>
   
   <body>
-    
+    <!--Navbar for mobile screens-->
+    <header class="nav-mobile navbar">
+      <!--To show only when hamburger icon is clicked-->
+      <ul class="nav-menu-mobile list-unstyled py-5 border border-top-0 border-start-0 border-end-0 shadow-sm">
+        <li class="nav-item-mobile">
+          <a href="#" class="nav-link-mobile lato-font font-darkgrey fw-bold text-decoration-none">About</a>
+        </li>
+        <li class="nav-item-mobile">
+          <a href="#" class="nav-link-mobile lato-font font-darkgrey fw-bold text-decoration-none">Gallery</a>
+        </li>
+        <li class="nav-item-mobile">
+          <a href="#" class="nav-link-mobile lato-font font-darkgrey fw-bold text-decoration-none">Prints</a>
+        </li>
+        <li class="nav-item-mobile">
+          <a href="#" class="nav-link-mobile lato-font font-darkgrey fw-bold text-decoration-none">Sponsor</a>
+        </li>
+        <li class="nav-item-mobile">
+          <a href="#" class="nav-link-mobile lato-font font-darkgrey fw-bold text-decoration-none border-orange p-3">Contact Me</a>
+        </li>
+      </ul>
+
+      <div class="hamburger ps-3 pt-3">
+        <span class="bar bg-darkgrey pt-1"></span>
+        <span class="bar bg-darkgrey pt-1"></span>
+        <span class="bar bg-darkgrey pt-1"></span>
+      </div>
+    </header>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="script/mobile-menu-homepage.js"></script>
   </body>
 </html>

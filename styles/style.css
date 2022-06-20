@@ -298,6 +298,17 @@ body {
   .section-3-mobile .img-description {
     font-size: 9px;
   }
+
+  /* Styles for Section 4 | Partners for mobile screens */
+  .section-4-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;;
+    top: 10px;
+    left: 110px;
+  }
 }
 
 /* Styles for screens at 320px & above */
@@ -470,5 +481,20 @@ body {
 
   .section-3-mobile .img-description {
     font-size: 11px;
+  }
+
+  /* Styles for Section 4 | Partners for mobile screens */
+  .section-4-mobile {
+    width: 110%;
+  }
+
+  .section-4-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;;
+    top: 10px;
+    left: 150px;
   }
 }

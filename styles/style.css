@@ -16,7 +16,7 @@ html {
 body {
   font-family: 'Quicksand', Helvetica, sans-serif;
   background-color: rgb(255, 255, 255);
-
+  overflow-x: hidden;
   /*  position: relative; */
   min-height: 100vh;  /* vh (viewport height as unit of measure)) */
   margin: 0;
@@ -199,12 +199,63 @@ body {
   }
 
   /* The h1 tag for section-1-1-mobile */
-  .heading {
+  .section-1-mobile .heading {
     background-image: url("../images/image2.jpg");
     background-repeat: repeat;
     background-position: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  /* Styles for Section 2 | Photography Niche for mobile screens */
+  .section-2-mobile {
+    width: 110%;
+    height: 100%;
+  }
+
+  .section-2-mobile .heading {
+    color: white;
+  }
+
+  .section-2-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;;
+    top: 10px;
+    left: 110px;
+  }
+
+  .section-2-1-mobile .title {
+    font-size: 14px;
+  }
+
+  .section-2-1-1-mobile,
+  .section-2-1-2-mobile,
+  .section-2-1-3-mobile,
+  .section-2-1-4-mobile,
+  .section-2-1-5-mobile {
+    border: 1px solid #6b7385;
+    background-color: #6b7385;
+  }
+
+  .section-2-mobile .description {
+    font-size: 13px;
+  }
+
+  .section-2-mobile .contact-me-btn {
+    color: white;
+  }
+
+  .section-2-mobile .contact-me-btn:hover {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    background-color: white;
+  }
+
+  .section-2-mobile .contact-me-btn:active {
+    border: 4px solid #ec5242;
   }
 }
 
@@ -289,11 +340,53 @@ body {
   }
 
   /* The h1 tag for section-1-1-mobile */
-  .heading {
+  .section-1-mobile .heading {
     background-image: url("../images/image2.jpg");
     background-repeat: repeat;
     background-position: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  /* Styles for Section 2 | Photography Niche */
+  .section-2-mobile {
+    width: 110%;  
+  }
+
+  .section-2-mobile .heading {
+    color: white;
+  }
+
+  .section-2-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;;
+    top: 15px;
+    left: 150px;
+  }
+
+  .section-2-1-1-mobile,
+  .section-2-1-2-mobile,
+  .section-2-1-3-mobile,
+  .section-2-1-4-mobile,
+  .section-2-1-5-mobile {
+    border: 1px solid #6b7385;
+    background-color: #6b7385;
+  }
+
+  .section-2-mobile .contact-me-btn {
+    color: white;
+  }
+
+  .section-2-mobile .contact-me-btn:hover {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    background-color: white;
+  }
+
+  .section-2-mobile .contact-me-btn:active {
+    border: 4px solid #ec5242;
   }
 }

@@ -24,7 +24,7 @@ const featuredWork1 = [
     image1: ['../images/image5.jpg', '../images/image8.jpg'],
     titles: ['Bure kalou', 'Vaka'],
     locationAndYear1: ['Bau village, Tailevu, Fiji ◽ 2017', 'Korova settlement, Suva, Fiji ◽ 2016'],
-    description1: ['An orange flower cluster.', 'A Samoan fan.'],
+    description1: ['A bure kalou on Bau island.', 'A masi piece of a vaka.']
   },
 ];
 

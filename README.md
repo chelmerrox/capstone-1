@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/chelmerrox/capstone-1/main/index.html)
+[Live Demo Link](https://raw.githack.com/chelmerrox/capstone-1/capstone-1/index.html)
 
 ## Video presentation
 

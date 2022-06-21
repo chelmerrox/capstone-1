@@ -1,0 +1,302 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;  /* for Google Chrome and Apple Safari */
+  -moz-box-sizing: border-box;    /* for Mozilla Firefox */
+  -ms-box-sizing: border-box;   /* for Microsoft's Internet Explorer */
+  box-sizing: border-box;       /* box-sizing is a property allows us to change exactly how the box-model works  */
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+
+  /*  position: relative; */
+  min-height: 100vh;  /* vh (viewport height as unit of measure)) */
+  margin: 0;
+}
+
+@font-face {
+  font-family: Cocogoose;
+  src: url('../font-families/Cocogoose\ Pro-trial.ttf');
+}
+
+.cocogoose-font {
+  font-family: Cocogoose, sans-serif;
+}
+
+.lato-font {
+  font-family: 'Lato', sans-serif;
+}
+
+.font-darkgrey {
+  color: #272a31;
+}
+
+.font-lightgrey {
+  color: #d3d3d3;
+}
+
+.font-orange {
+  color: #ec5242;
+}
+
+.bg-darkgrey {
+  background-color: #272a31;
+}
+
+.bg-lightgrey {
+  background-color: #d3d3d3;
+}
+
+.bg-orange {
+  background-color: #ec5242;
+}
+
+.bg-lightergrey {
+  background-color: #f1eeee;
+}
+
+.border-darkgrey {
+  border: 2px solid #272a31;
+}
+
+.border-lightgrey {
+  border: 2px solid #d3d3d3;
+}
+
+.border-orange {
+  border: 2px solid #ec5242;
+}
+
+.border-white {
+  border: 3px solid white;
+}
+
+/* Styles for navbar */
+.nav-mobile .nav-menu-mobile .nav-item-mobile {
+  list-style: none;
+}
+
+.nav-mobile .nav-menu-mobile .nav-item-mobile .nav-link-mobile {
+  color: #1a2236;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 29px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Styles for screens at 319px & below */
+@media only screen and (max-width: 319px) {
+  /* Styles for navbar */
+  .hamburger {
+    display: block;
+    margin-top: -6px;
+    margin-right: 14px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    position: fixed;
+    top: 21.5px;
+    left: 233px;
+    z-index: 10;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    position: fixed;
+    top: 38px;
+    left: 232px;
+    z-index: 10;
+  }
+
+  .nav-menu-mobile {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1;
+  }
+
+  .nav-item-mobile {
+    margin: 16px 0;
+  }
+
+  .nav-menu-mobile.active {
+    left: 0;
+  }
+
+  /* Styles for Section 1 | Headline section for mobile screens */
+  .section-1-mobile {
+    position: relative; /* needed for transparent background */
+    background-color: white; /* needed for transparent background */
+    width: 110%;
+    height: 100%;
+  }
+
+  /* Add transparent background */
+  .section-1-mobile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    background-image: url("../images/image10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* needed for transparent background */
+  .section-1-1-mobile,
+  .section-1-2-mobile,
+  .section-1-3-mobile {
+    position: relative;
+  }
+
+  /* The h1 tag for section-1-1-mobile */
+  .section-1-1-mobile .heading {
+    background-image: url("../images/image2.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 29px;
+  }
+}
+
+/* Styles for screens at 320px & above */
+@media only screen and (min-width: 320px) {
+  /* Styles for navbar */
+  .hamburger {
+    display: block;
+    margin-top: -6px;
+    margin-right: 14px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    position: fixed;
+    top: 21.5px;
+    left: 319px;
+    z-index: 10;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    position: fixed;
+    top: 38px;
+    left: 318px;
+    z-index: 10;
+  }
+
+  .nav-menu-mobile {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1;
+  }
+
+  .nav-item-mobile {
+    margin: 16px 0;
+  }
+
+  .nav-menu-mobile.active {
+    left: 0;
+  }
+
+  /* Styles for Section 1 | Headline section for mobile screens */
+  .section-1-mobile {
+    position: relative; /* needed for transparent background */
+    background-color: white; /* needed for transparent background */
+    width: 110%;
+    height: 100%;
+  }
+
+  /* Add transparent background */
+  .section-1-mobile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    background-image: url("../images/image10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* needed for transparent background */
+  .section-1-1-mobile,
+  .section-1-2-mobile,
+  .section-1-3-mobile {
+    position: relative;
+  }
+
+  /* The h1 tag for section-1-1-mobile */
+  .section-1-1-mobile .heading {
+    background-image: url("../images/image2.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+  }
+}

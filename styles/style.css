@@ -311,13 +311,13 @@ body {
     left: 110px;
   }
 
-  /* Styles for Footer mobile*/
-  .footer-mobile .chelmerrox-photography-logo {
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
     width: 53%;
     height: 86%;
   }
 
-  .footer-mobile .texts {
+  .footer-mobile-desktop .texts {
     font-size: 10px;
   }
 }
@@ -510,13 +510,13 @@ body {
     left: 150px;
   }
 
-  /* Styles for Footer mobile*/
-  .footer-mobile .chelmerrox-photography-logo {
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
     width: 40%;
     height: 99%;
   }
 
-  .footer-mobile .texts {
+  .footer-mobile-desktop .texts {
     font-size: 12px;
   }
 }
@@ -708,6 +708,16 @@ body {
     width: 21%;
     height: 48%;
   }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
+    width: 30%;
+    height: 90%;
+  }
+
+  .footer-mobile-desktop .texts {
+    font-size: 14px;
+  }
 }
 
 /* Styles for screens at 912px & above */
@@ -767,6 +777,16 @@ body {
     position: relative;
     left: 369px;
   }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
+    width: 35%;
+    height: 93%;
+  }
+
+  .footer-mobile-desktop .texts {
+    font-size: 19px;
+  }
 }
 
 /* Styles for screens at 1024px & above */
@@ -802,6 +822,11 @@ body {
   .section-4-desktop .heading::after {
     position: relative;
     left: 419px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .texts {
+    font-size: 21px;
   }
 }
 
@@ -855,6 +880,11 @@ body {
   .section-4-desktop .heading::after {
     position: relative;
     left: 519px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .texts {
+    font-size: 24px;
   }
 }
 
@@ -917,6 +947,17 @@ body {
     .section-4-desktop .heading::after {
     position: relative;
     left: 619px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
+    width: 40%;
+    height: 93%;
+  }
+
+  .footer-mobile-desktop .texts {
+    font-size: 27px;
   }
 }
 
@@ -990,14 +1031,19 @@ body {
     font-size: 1.5rem;
   }
 
-    /* Styles for Section 4 | Partners for tablet & desktop screens */
-    .section-4-desktop .heading {
-      font-size: 3rem;
-    }
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading {
+    font-size: 3rem;
+  }
 
-    .section-4-desktop .heading::after {
-      width: 10%;
-      position: relative;
-      left: 789px;
-    }
+  .section-4-desktop .heading::after {
+    width: 10%;
+    position: relative;
+    left: 789px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .texts {
+    font-size: 30px;
+  }
 }

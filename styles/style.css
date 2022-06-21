@@ -615,6 +615,46 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 63px;
   }
+
+  /* Styles for Section2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;;
+    top: 18px;
+    left: 307px;
+  }
+
+  .section-2-1-1-desktop,
+  .section-2-1-2-desktop,
+  .section-2-1-3-desktop,
+  .section-2-1-4-desktop,
+  .section-2-1-5-desktop {
+    border: 1px solid #6b7385;
+    background-color: #6b7385;
+  }
+
+  .section-2-1-icon11,
+  .section-2-1-icon44,
+  .section-2-1-icon55 {
+    width: 50%;
+  }
+
+  .section-2-desktop .contact-me-btn {
+    color: white;
+  }
+
+  .section-2-desktop .contact-me-btn:hover {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    background-color: white;
+  }
+
+  .section-2-desktop .contact-me-btn:active {
+    border: 4px solid #ec5242;
+  }
 }
 
 /* Styles for screens at 912px & above */
@@ -626,6 +666,13 @@ body {
 
   .nav-desktop-2 .chelmerrox-photography-logo {
     width: 29%;
+  }
+
+  /* Styles for Section2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading::after {
+    position: relative;;
+    top: 18px;
+    left: 377px;
   }
 }
 
@@ -643,6 +690,13 @@ body {
 
   .section-1-1-desktop .heading {
     font-size: 69px;
+  }
+
+  /* Styles for Section2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading::after {
+    position: relative;;
+    top: 18px;
+    left: 427px;
   }
 }
 
@@ -672,6 +726,54 @@ body {
 
   .section-1-3-desktop .description {
     font-size: 2.2rem !important;
+  }
+
+  /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading::after {
+    position: relative;;
+    top: 18px;
+    left: 537px;
+  }
+}
+
+/* Styles for screens at 1500px & above */    
+@media only screen and (min-width: 1500px){
+  /* Styles for Section 1 | Headline for tablet & desktop screens */
+  .section-1-desktop {
+    width: 101.5%;
+  }
+
+  /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading {
+    font-size: 2.6rem;
+  }
+
+  .section-2-desktop .heading::after {
+    position: relative;;
+    top: 18px;
+    left: 617px;
+  }
+
+  .section-2-1-icon22,
+  .section-2-1-icon44 {
+    width: 55%;
+  }
+
+  .section-2-1-icon33 {
+    width: 48%;
+  }
+
+  .section-2-1-desktop .title {
+    font-size: 2rem;
+  }
+
+  .section-2-1-desktop .description {
+    font-size: 1.5rem;
+  }
+
+  .section-2-desktop .contact-me-btn {
+    font-size: 2rem;
+    padding-top: 60px;
   }
 }
 
@@ -704,5 +806,17 @@ body {
 
   .section-1-3-desktop .description {
     font-size: 3.2rem !important;
+  }
+
+  /* Styles for Section2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading {
+    font-size: 3rem;
+  }
+
+  .section-2-desktop .heading::after {
+    width: 10%;
+    position: relative;;
+    top: 18px;
+    left: 789px;
   }
 }

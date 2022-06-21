@@ -409,7 +409,7 @@ body {
     background-position: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 46px;
+    font-size: 42px;
   }
 
   /* Styles for Section 2 | Photography Niche */
@@ -520,3 +520,87 @@ body {
     font-size: 12px;
   }
 }
+
+/* Styles for screens at 768px & above */
+@media only screen and (min-width: 768px) {
+  /* Styles for navbar */
+  .nav-desktop-2 .nav-desktop-2-logo-link {
+    width: 37%;
+  }
+
+  .nav-desktop-2 .chelmerrox-photography-logo {
+    width: 33%;
+    height: 33%;
+  }
+
+  .nav-desktop-2 .contact-me-btn:hover {
+    background-color: #ec5242;
+    color: white;
+    animation: shake 2s linear infinite;
+  }
+
+  @keyframes shake {
+    0%,
+    7% {
+      transform: rotateZ(0);
+    }
+
+    15% {
+      transform: rotateZ(-15deg);
+    }
+
+    20% {
+      transform: rotateZ(10deg);
+    }
+
+    25% {
+      transform: rotateZ(-10deg);
+    }
+
+    30% {
+      transform: rotateZ(6deg);
+    }
+
+    35% {
+      transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+      transform: rotateZ(0);
+    }
+  }
+
+  .nav-desktop-2 .contact-me-btn:active {
+    font-weight: bolder;
+  }
+}
+
+/* Styles for screens at 912px & above */
+@media only screen and (min-width: 912px) {
+  /* Styles for navbar */
+  .nav-desktop-2 .nav-desktop-2-logo-link {
+    width: 46%;
+  }
+
+  .nav-desktop-2 .chelmerrox-photography-logo {
+    width: 29%;
+  }
+}
+
+/* Styles for screens at 1024px & above */
+@media only screen and (min-width: 1024px) {
+  /* Styles for navbar */
+  .nav-desktop-2 .nav-desktop-2-logo-link {
+    width: 35%;
+  }
+}
+
+/* Styles for screens at 1280px & above */
+@media only screen and (min-width: 1280px) {
+  /* Styles for navbar */
+  .nav-desktop-2 .chelmerrox-photography-logo {
+    width: 24%;
+  }
+}
+

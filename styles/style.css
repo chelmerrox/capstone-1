@@ -684,6 +684,30 @@ body {
     top: 10px;
     left: 2px;
   }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;;
+    top: 18px;
+    left: 307px;
+  }
+
+  .section-4-1-desktop .national-geographic-logo,
+  .section-4-1-desktop .google-logo,
+  .section-4-1-desktop .tourism-fiji-logo,
+  .section-4-1-desktop .the-westin-logo {
+    width: 21%;
+    height: 100%;
+  }
+
+  .section-4-1-desktop .fiji-water-logo {
+    width: 21%;
+    height: 48%;
+  }
 }
 
 /* Styles for screens at 912px & above */
@@ -737,6 +761,12 @@ body {
   .section-3-desktop .img-description {
     font-size: 1.3rem;
   }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading::after {
+    position: relative;
+    left: 369px;
+  }
 }
 
 /* Styles for screens at 1024px & above */
@@ -766,6 +796,12 @@ body {
   .section-3-desktop .heading::after {
     position: relative;
     left: 390px;
+  }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading::after {
+    position: relative;
+    left: 419px;
   }
 }
 
@@ -814,6 +850,12 @@ body {
     width: 51%;
     height: 77%;
   }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading::after {
+    position: relative;
+    left: 519px;
+  }
 }
 
 /* Styles for screens at 1500px & above */    
@@ -857,11 +899,25 @@ body {
   }
 
     /* Styles for Section 3 | Featured work for tablet & desktop screens */
+    .section-3-desktop .heading {
+      font-size: 2.6rem;
+    }
+
     .section-3-desktop .heading::after {
       width: 10%;
       position: relative;
       left: 630px;
     }
+
+    /* Styles for Section 4 | Partners for tablet & desktop screens */
+    .section-4-desktop .heading {
+      font-size: 2.6rem;
+    }
+
+    .section-4-desktop .heading::after {
+    position: relative;
+    left: 619px;
+  }
 }
 
 /* Styles for screens at 1800px & above */
@@ -933,4 +989,15 @@ body {
   .section-3-desktop .img-description {
     font-size: 1.5rem;
   }
+
+    /* Styles for Section 4 | Partners for tablet & desktop screens */
+    .section-4-desktop .heading {
+      font-size: 3rem;
+    }
+
+    .section-4-desktop .heading::after {
+      width: 10%;
+      position: relative;
+      left: 789px;
+    }
 }

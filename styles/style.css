@@ -17,6 +17,7 @@ body {
   font-family: 'Quicksand', Helvetica, sans-serif;
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
+
   /*  position: relative; */
   min-height: 100vh;  /* vh (viewport height as unit of measure)) */
   margin: 0;
@@ -28,7 +29,7 @@ body {
 }
 
 .cocogoose-font {
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
 }
 
 .lato-font {
@@ -223,7 +224,7 @@ body {
     border-bottom: 2px solid #ec5242;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 10px;
     left: 110px;
   }
@@ -265,7 +266,7 @@ body {
     border-bottom: 2px solid #ec5242;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 10px;
     left: 110px;
   }
@@ -275,7 +276,7 @@ body {
     height: 35%;
     padding-left: 0;
     padding-right: 0;
-    box-shadow: -26px -23px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: -26px -23px 5px -2px rgba(0, 0, 0, 0.75);
   }
 
   .section-3-mobile .img-name {
@@ -286,12 +287,12 @@ body {
     font-size: 11px;
   }
 
-  .section-3-mobile .location-and-year:after {
+  .section-3-mobile .location-and-year::after {
     content: "";
     border-bottom: 1px solid #d3d3d3;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 4px;
     left: 2px;
   }
@@ -306,7 +307,7 @@ body {
     border-bottom: 2px solid #ec5242;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 10px;
     left: 110px;
   }
@@ -414,7 +415,7 @@ body {
 
   /* Styles for Section 2 | Photography Niche */
   .section-2-mobile {
-    width: 110%;  
+    width: 110%;
   }
 
   .section-2-mobile .heading {
@@ -426,7 +427,7 @@ body {
     border-bottom: 2px solid #ec5242;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 15px;
     left: 150px;
   }
@@ -460,7 +461,7 @@ body {
     border-bottom: 2px solid #ec5242;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 10px;
     left: 150px;
   }
@@ -470,7 +471,7 @@ body {
     height: 35%;
     padding-left: 0;
     padding-right: 0;
-    box-shadow: -26px -23px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: -26px -23px 5px -2px rgba(0, 0, 0, 0.75);
   }
 
   .section-3-mobile .img-name {
@@ -481,12 +482,12 @@ body {
     font-size: 13px;
   }
 
-  .section-3-mobile .location-and-year:after {
+  .section-3-mobile .location-and-year::after {
     content: "";
     border-bottom: 1px solid #d3d3d3;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 4px;
     left: 2px;
   }
@@ -505,7 +506,7 @@ body {
     border-bottom: 2px solid #ec5242;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 10px;
     left: 150px;
   }
@@ -531,6 +532,10 @@ body {
   .nav-desktop-2 .chelmerrox-photography-logo {
     width: 33%;
     height: 33%;
+  }
+
+  .section-2-desktop .contact-me-btn {
+    color: white;
   }
 
   .nav-desktop-2 .contact-me-btn:hover {
@@ -622,7 +627,7 @@ body {
     border-bottom: 2px solid #ec5242;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 18px;
     left: 307px;
   }
@@ -642,10 +647,6 @@ body {
     width: 50%;
   }
 
-  .section-2-desktop .contact-me-btn {
-    color: white;
-  }
-
   .section-2-desktop .contact-me-btn:hover {
     color: #ec5242;
     border: 2px solid #ec5242;
@@ -662,7 +663,7 @@ body {
     border-bottom: 2px solid #ec5242;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 17px;
     left: 280px;
   }
@@ -672,7 +673,7 @@ body {
     height: 60%;
     padding-left: 0;
     padding-right: 0;
-    box-shadow: -26px -23px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: -26px -23px 5px -2px rgba(0, 0, 0, 0.75);
   }
 
   .section-3-desktop .location-and-year::after {
@@ -680,7 +681,7 @@ body {
     border-bottom: 1px solid #d3d3d3;
     width: 25%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 10px;
     left: 2px;
   }
@@ -691,7 +692,7 @@ body {
     border-bottom: 2px solid #ec5242;
     width: 15%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 18px;
     left: 307px;
   }
@@ -733,14 +734,14 @@ body {
 
   /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
   .section-2-desktop .heading::after {
-    position: relative;;
+    position: relative;
     top: 18px;
     left: 377px;
   }
 
   /* Styles for Section 3 | Featured work for tablet & desktop screens */
   .section-3-desktop .heading::after {
-    position: relative;;
+    position: relative;
     top: 17px;
     left: 340px;
   }
@@ -763,7 +764,7 @@ body {
     border-bottom: 1px solid #d3d3d3;
     width: 25%;
     display: flex;
-    position: relative;;
+    position: relative;
     top: 10px;
     left: 2px;
   }
@@ -807,7 +808,7 @@ body {
 
   /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
   .section-2-desktop .heading::after {
-    position: relative;;
+    position: relative;
     top: 18px;
     left: 427px;
   }
@@ -860,7 +861,7 @@ body {
 
   /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
   .section-2-desktop .heading::after {
-    position: relative;;
+    position: relative;
     top: 18px;
     left: 537px;
   }
@@ -888,8 +889,8 @@ body {
   }
 }
 
-/* Styles for screens at 1500px & above */    
-@media only screen and (min-width: 1500px){
+/* Styles for screens at 1500px & above */
+@media only screen and (min-width: 1500px) {
   /* Styles for Section 1 | Headline for tablet & desktop screens */
   .section-1-desktop {
     width: 101.5%;
@@ -901,7 +902,7 @@ body {
   }
 
   .section-2-desktop .heading::after {
-    position: relative;;
+    position: relative;
     top: 18px;
     left: 617px;
   }
@@ -928,28 +929,29 @@ body {
     padding-top: 60px;
   }
 
-    /* Styles for Section 3 | Featured work for tablet & desktop screens */
-    .section-3-desktop .heading {
-      font-size: 2.6rem;
-    }
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading {
+    font-size: 2.6rem;
+  }
 
-    .section-3-desktop .heading::after {
-      width: 10%;
-      position: relative;
-      left: 630px;
-    }
+  .section-3-desktop .heading::after {
+    width: 10%;
+    position: relative;
+    left: 630px;
+  }
 
-    /* Styles for Section 4 | Partners for tablet & desktop screens */
-    .section-4-desktop .heading {
-      font-size: 2.6rem;
-    }
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading {
+    font-size: 2.6rem;
+  }
 
-    .section-4-desktop .heading::after {
+  .section-4-desktop .heading::after {
     position: relative;
     left: 619px;
   }
 
   /* Styles for Footer for mobile, tablet & desktop screens */
+
   /* Styles for Footer for mobile, tablet & desktop screens */
   .footer-mobile-desktop .chelmerrox-photography-logo {
     width: 40%;
@@ -999,7 +1001,7 @@ body {
 
   .section-2-desktop .heading::after {
     width: 10%;
-    position: relative;;
+    position: relative;
     top: 18px;
     left: 789px;
   }

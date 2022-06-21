@@ -10,44 +10,44 @@ const featuredWork = [
     image: '../images/image3.jpg',
     title: 'Ixora',
     locationAndYear: 'Dravuni village, Tailevu, Fiji ◽ 2017',
-    description: 'An orange flower cluster.'
+    description: 'An orange flower cluster.',
   },
   {
     num: 2,
     image: '../images/image4.jpg',
     title: 'Azalea',
     locationAndYear: 'Dravuni village, Tailevu, Fiji ◽ 2017',
-    description: 'A dark pink azalea.'
+    description: 'A dark pink azalea.',
   },
   {
     num: 3,
     image: '../images/image5.jpg',
     title: 'Bure kalou',
     locationAndYear: 'Bau village, Tailevu, Fiji ◽ 2017',
-    description: 'A bure kalou on Bau island.'
+    description: 'A bure kalou on Bau island.',
   },
   {
     num: 4,
     image: '../images/image6.jpg',
     title: 'Iri',
     locationAndYear: 'Oceania ◽ 2017',
-    description: 'A Samoan fan.'
+    description: 'A Samoan fan.',
   },
   {
     num: 5,
     image: '../images/image7.jpg',
     title: 'Micronesia',
     locationAndYear: 'Oceania ◽ 2018',
-    description: 'A Micronesia traditional necklace.'
+    description: 'A Micronesia traditional necklace.',
   },
   {
     num: 6,
     image: '../images/image8.jpg',
     title: 'Vaka',
     locationAndYear: 'Korova settlement, Suva, Fiji ◽ 2016',
-    description: 'A masi piece of a vaka.'
-  }
-]
+    description: 'A masi piece of a vaka.',
+  },
+];
 
 // Create Section 3 for mobile screens
 section3Mobile.innerHTML = `
@@ -59,8 +59,8 @@ section3Mobile.className = 'section-3-mobile row d-flex d-sm-flex d-md-none px-2
 
 // Create each card/work then append to Section 3-1 Mobile
 featuredWork.forEach((work) => {
-  const cardMobile = document.createElement('div'); //create a card
-  cardMobile.className = `row section-3-1-${work.num}-mobile mb-3 py-3`; //Add these classes (including Boostrap v5 classes)
+  const cardMobile = document.createElement('div'); // create a card
+  cardMobile.className = `row section-3-1-${work.num}-mobile mb-3 py-3`; // Add these classes (including Boostrap v5 classes)
 
   cardMobile.innerHTML = `
       <img src="${work.image}" alt="${work.description}" class="col-5 col-sm-5 mb-4 img-fluid featured-imgs">
@@ -75,7 +75,7 @@ featuredWork.forEach((work) => {
   section31Mobile.append(cardMobile);
 });
 
-//Add all of these classes
+// Add all of these classes
 section31Mobile.className = 'section-3-1-mobile col-12 col-sm-12 container-fluid mt-5 ps-5';
 
 section3Mobile.append(section31Mobile); // Append section-3-1-mobile to Section 3 Mobile

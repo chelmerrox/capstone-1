@@ -6,27 +6,27 @@ const section3Desktop1 = document.createElement('div');
 // Array-objects to store all featured work info
 const featuredWork1 = [
   {
-    num1: [1,4],
+    num1: [1, 4],
     image1: ['../images/image3.jpg', '../images/image6.jpg'],
-    titles: ['Ixora', 'Iri' ],
+    titles: ['Ixora', 'Iri'],
     locationAndYear1: ['Dravuni village, Tailevu ◽ 2017', 'Oceania ◽ 2017'],
-    description1: ['An orange flower cluster.', 'A Samoan fan.']
+    description1: ['An orange flower cluster.', 'A Samoan fan.'],
   },
   {
-    num1: [2,5],
+    num1: [2, 5],
     image1: ['../images/image4.jpg', '../images/image7.jpg'],
-    titles: ['Dark Azalea', 'Micronesia' ],
+    titles: ['Dark Azalea', 'Micronesia'],
     locationAndYear1: ['Dravuni village, Tailevu ◽ 2017', 'Oceania ◽ 2018'],
-    description1: ['A dark pink azalea', 'A Micronesian traditional necklace.']
+    description1: ['A dark pink azalea', 'A Micronesian traditional necklace.'],
   },
   {
-    num1: [3,6],
+    num1: [3, 6],
     image1: ['../images/image5.jpg', '../images/image8.jpg'],
-    titles: ['Bure kalou', 'Vaka' ],
+    titles: ['Bure kalou', 'Vaka'],
     locationAndYear1: ['Bau village, Tailevu, Fiji ◽ 2017', 'Korova settlement, Suva, Fiji ◽ 2016'],
-    description1: ['An orange flower cluster.', 'A Samoan fan.']
-  }
-]
+    description1: ['An orange flower cluster.', 'A Samoan fan.'],
+  },
+];
 
 // Create Section 3 Desktop
 section3Desktop.innerHTML = `
@@ -62,7 +62,7 @@ featuredWork1.forEach((work1) => {
     </div>
   `;
 
-  section3Desktop1.append(row); //Append each row to section-3-1-desktop
+  section3Desktop1.append(row); // Append each row to section-3-1-desktop
 });
 
 section3Desktop1.className = 'section-3-1-desktop col-md-12 container-fluid mt-5 ps-5';

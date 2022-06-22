@@ -7,21 +7,21 @@ const section3Desktop1 = document.createElement('div');
 const featuredWork1 = [
   {
     num1: [1, 4],
-    image1: ['/images/image3.jpg', '../images/image6.jpg'],
+    image1: ['./images/image3.jpg', './images/image6.jpg'],
     titles: ['Ixora', 'Iri'],
     locationAndYear1: ['Dravuni village, Tailevu ◽ 2017', 'Oceania ◽ 2017'],
     description1: ['An orange flower cluster.', 'A Samoan fan.'],
   },
   {
     num1: [2, 5],
-    image1: ['../images/image4.jpg', '../images/image7.jpg'],
+    image1: ['./images/image4.jpg', './images/image7.jpg'],
     titles: ['Dark Azalea', 'Micronesia'],
     locationAndYear1: ['Dravuni village, Tailevu ◽ 2017', 'Oceania ◽ 2018'],
     description1: ['A dark pink azalea', 'A Micronesian traditional necklace.'],
   },
   {
     num1: [3, 6],
-    image1: ['../images/image5.jpg', '../images/image8.jpg'],
+    image1: ['./images/image5.jpg', './images/image8.jpg'],
     titles: ['Bure kalou', 'Vaka'],
     locationAndYear1: ['Bau village, Tailevu, Fiji ◽ 2017', 'Korova settlement, Suva, Fiji ◽ 2016'],
     description1: ['A bure kalou on Bau island.', 'A masi piece of a vaka.'],

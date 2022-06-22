@@ -208,6 +208,17 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 29px;
   }
+
+   /* Styles for Section 2 | Partners for mobile screens */
+  .section-2-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 110px;
+  }
 }
 
 /* Styles for screens at 320px & above */
@@ -298,5 +309,16 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 42px;
+  }
+
+  /* Styles for Section 2 | Partners for mobile screens */
+  .section-2-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 145px;
   }
 }

@@ -7,7 +7,7 @@ const section3Desktop1 = document.createElement('div');
 const featuredWork1 = [
   {
     num1: [1, 4],
-    image1: ['../images/image3.jpg', '../images/image6.jpg'],
+    image1: ['/images/image3.jpg', '../images/image6.jpg'],
     titles: ['Ixora', 'Iri'],
     locationAndYear1: ['Dravuni village, Tailevu ◽ 2017', 'Oceania ◽ 2017'],
     description1: ['An orange flower cluster.', 'A Samoan fan.'],

@@ -7,7 +7,7 @@ const section31Mobile = document.createElement('div');
 const featuredWork = [
   {
     num: 1,
-    image: './../../images/image3.jpg',
+    image: '/images/image3.jpg',
     title: 'Ixora',
     locationAndYear: 'Dravuni village, Tailevu, Fiji ◽ 2017',
     description: 'An orange flower cluster.',

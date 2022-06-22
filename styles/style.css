@@ -641,10 +641,24 @@ body {
     background-color: #6b7385;
   }
 
-  .section-2-1-icon11,
-  .section-2-1-icon44,
+  .section-2-1-icon11 {
+    width: 72%;
+  }
+  
+  .section-2-1-icon22 {
+    width: 75%;
+  }
+
+  .section-2-1-icon33 {
+    width: 63%;
+  }
+
+  .section-2-1-icon44 {
+    width: 85%;
+  }
+
   .section-2-1-icon55 {
-    width: 50%;
+    width: 97%;
   }
 
   .section-2-desktop .contact-us-btn:hover {
@@ -909,11 +923,15 @@ body {
 
   .section-2-1-icon22,
   .section-2-1-icon44 {
-    width: 55%;
+    width: 66%;
   }
 
   .section-2-1-icon33 {
-    width: 48%;
+    width: 51%;
+  }
+
+  .section-2-1-icon55 {
+    margin-top: 14px;
   }
 
   .section-2-1-desktop .title {
@@ -1002,6 +1020,11 @@ body {
     position: relative;
     top: 18px;
     left: 789px;
+  }
+
+  .section-2-1-icon22, 
+  .section-2-1-icon44 {
+    width: 65%;
   }
 
   /* Styles for Section 3 | Featured work for tablet & desktop screens */

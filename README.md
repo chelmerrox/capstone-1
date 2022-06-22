@@ -22,7 +22,7 @@
 
 ## Video presentation
 
-[My video presentation]()
+[My video presentation](https://www.loom.com/share/f70f99e9c9b74be790ab7e49c87690da)
 
 ## Getting Started
 

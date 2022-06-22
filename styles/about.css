@@ -251,6 +251,16 @@ body {
     top: 10px;
     left: 110px;
   }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
+    width: 53%;
+    height: 86%;
+  }
+
+  .footer-mobile-desktop .texts {
+    font-size: 10px;
+  }
 }
 
 /* Styles for screens at 320px & above */
@@ -388,5 +398,15 @@ body {
     position: relative;
     top: 10px;
     left: 150px;
+  }
+
+   /* Styles for Footer for mobilescreens */
+   .footer-mobile .chelmerrox-photography-logo {
+    width: 40%;
+    height: 99%;
+  }
+
+  .footer-mobile .texts {
+    font-size: 12px;
   }
 }

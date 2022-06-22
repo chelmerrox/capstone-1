@@ -68,8 +68,8 @@ body {
   border: 2px solid #272a31;
 }
 
-.border-lightgrey {
-  border: 2px solid #d3d3d3;
+.border-top-lightgrey {
+  border-top: 1px solid #d3d3d3;
 }
 
 .border-orange {
@@ -219,6 +219,27 @@ body {
     top: 10px;
     left: 110px;
   }
+
+   /* Styles for Section 3 | More Featured work for mobile screens */  
+   .section-3-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 110px;
+  }
+
+   .section-3-mobile .card {
+    position: relative;
+   }
+
+   .section-3-mobile .card-img-overlay {
+    position: absolute;
+    top: -48px;
+    background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
+  }
 }
 
 /* Styles for screens at 320px & above */
@@ -320,5 +341,26 @@ body {
     position: relative;
     top: 10px;
     left: 145px;
+  }
+
+  /* Styles for Section 3 | More Featured work for mobile screens */  
+  .section-3-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 155px;
+  }
+
+   .section-3-mobile .card {
+    position: relative;
+   }
+
+   .section-3-mobile .card-img-overlay {
+    position: absolute;
+    top: -48px;
+    background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
   }
 }

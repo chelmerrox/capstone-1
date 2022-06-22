@@ -246,17 +246,17 @@ body {
     font-size: 13px;
   }
 
-  .section-2-mobile .contact-me-btn {
+  .section-2-mobile .contact-us-btn {
     color: white;
   }
 
-  .section-2-mobile .contact-me-btn:hover {
+  .section-2-mobile .contact-us-btn:hover {
     color: #ec5242;
     border: 2px solid #ec5242;
     background-color: white;
   }
 
-  .section-2-mobile .contact-me-btn:active {
+  .section-2-mobile .contact-us-btn:active {
     border: 4px solid #ec5242;
   }
 
@@ -441,17 +441,17 @@ body {
     background-color: #6b7385;
   }
 
-  .section-2-mobile .contact-me-btn {
+  .section-2-mobile .contact-us-btn {
     color: white;
   }
 
-  .section-2-mobile .contact-me-btn:hover {
+  .section-2-mobile .contact-us-btn:hover {
     color: #ec5242;
     border: 2px solid #ec5242;
     background-color: white;
   }
 
-  .section-2-mobile .contact-me-btn:active {
+  .section-2-mobile .contact-us-btn:active {
     border: 4px solid #ec5242;
   }
 
@@ -534,11 +534,11 @@ body {
     height: 33%;
   }
 
-  .section-2-desktop .contact-me-btn {
+  .section-2-desktop .contact-us-btn {
     color: white;
   }
 
-  .nav-desktop-2 .contact-me-btn:hover {
+  .nav-desktop-2 .contact-us-btn:hover {
     background-color: #ec5242;
     color: white;
     animation: shake 2s linear infinite;
@@ -576,7 +576,7 @@ body {
     }
   }
 
-  .nav-desktop-2 .contact-me-btn:active {
+  .nav-desktop-2 .contact-us-btn:active {
     font-weight: bolder;
   }
 
@@ -647,13 +647,13 @@ body {
     width: 50%;
   }
 
-  .section-2-desktop .contact-me-btn:hover {
+  .section-2-desktop .contact-us-btn:hover {
     color: #ec5242;
     border: 2px solid #ec5242;
     background-color: white;
   }
 
-  .section-2-desktop .contact-me-btn:active {
+  .section-2-desktop .contact-us-btn:active {
     border: 4px solid #ec5242;
   }
 
@@ -924,7 +924,7 @@ body {
     font-size: 1.5rem;
   }
 
-  .section-2-desktop .contact-me-btn {
+  .section-2-desktop .contact-us-btn {
     font-size: 2rem;
     padding-top: 60px;
   }

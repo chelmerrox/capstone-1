@@ -525,6 +525,29 @@ body {
     width: 50%;
     height: 50%;
   }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 17px;
+    left: 290px;
+  }
+
+  .section-3-desktop .card {
+    position: relative;
+    width: 100%;
+    height: 80%;
+   }
+  
+   .section-3-desktop .card-img-overlay {
+    position: absolute;
+    top: -48px;
+    background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
+  }
 }
 
 /* Styles for screens at 912px & above */
@@ -540,6 +563,12 @@ body {
 
   /* Styles for Section 2 | Patnerships for mobile, tablet & desktop screens */
   .section-2-mobile-desktop .heading::after {
+    position: relative;
+    left: 370px;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
     position: relative;
     left: 370px;
   }
@@ -570,6 +599,16 @@ body {
   .section-2-mobile-desktop .chelmerrox-photography-logo {
     width: 30%;
     height: 30%;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
+    position: relative;
+    left: 410px;
+  }
+
+  .section-3-desktop .card-title {
+    margin-top: 150px !important;
   }
 }
 
@@ -609,6 +648,19 @@ body {
   }
 }
 
+/* Styles for screens at 1200px & above */
+@media only screen and (min-width: 1200px){
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
+    position: relative;
+    left: 530px;
+  }
+
+  .section-3-desktop .card-title {
+    margin-top: 190px !important;
+  }
+}
+
 /* Styles for screens at 1500px & above */
 @media only screen and (min-width: 1500px) {
   /* Styles for Section 1 | Headline for tablet & desktop screens */
@@ -634,6 +686,25 @@ body {
   .section-2-mobile-desktop .contact-us-btn {
     font-size: 2rem;
     padding-top: 60px;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading {
+    font-size: 2.6rem;
+  }
+
+  .section-3-desktop .text {
+    font-size: 1.5rem !important;
+  }
+
+  .section-3-desktop .heading::after {
+    position: relative;
+    left: 610px;
+  }
+
+  .section-3-desktop .card-title {
+    margin-top: 250px !important;
+    font-size: 3.5rem !important;
   }
 }
 
@@ -670,5 +741,24 @@ body {
     position: relative;
     top: 18px;
     left: 789px;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading {
+    font-size: 3rem;
+  }
+
+  .section-3-desktop .text {
+    font-size: 1.5rem !important;
+  }
+
+  .section-3-desktop .heading::after {
+    position: relative;
+    left: 720px;
+  }
+
+  .section-3-desktop .card-title {
+    margin-top: 250px !important;
+    font-size: 4rem !important;
   }
 }

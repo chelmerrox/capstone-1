@@ -252,13 +252,13 @@ body {
     left: 110px;
   }
 
-  /* Styles for Footer for mobile, tablet & desktop screens */
-  .footer-mobile-desktop .chelmerrox-photography-logo {
+  /* Styles for Footer for mobile screens */
+  .footer-mobile .chelmerrox-photography-logo {
     width: 53%;
     height: 86%;
   }
 
-  .footer-mobile-desktop .texts {
+  .footer-mobile .texts {
     font-size: 10px;
   }
 }
@@ -400,7 +400,7 @@ body {
     left: 150px;
   }
 
-   /* Styles for Footer for mobilescreens */
+   /* Styles for Footer for mobile screens */
    .footer-mobile .chelmerrox-photography-logo {
     width: 40%;
     height: 99%;
@@ -548,6 +548,16 @@ body {
     top: -48px;
     background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
   }
+
+   /* Styles for Footer for tablet & desktop screens */
+   .footer-desktop .chelmerrox-photography-logo {
+    width: 30%;
+    height: 90%;
+  }
+
+  .footer-desktop .texts {
+    font-size: 14px;
+  }
 }
 
 /* Styles for screens at 912px & above */
@@ -571,6 +581,16 @@ body {
   .section-3-desktop .heading::after {
     position: relative;
     left: 370px;
+  }
+
+   /* Styles for Footer for tablet & desktop screens */
+   .footer-desktop .chelmerrox-photography-logo {
+    width: 35%;
+    height: 93%;
+  }
+
+  .footer-desktop .texts {
+    font-size: 19px;
   }
 }
 
@@ -610,6 +630,29 @@ body {
   .section-3-desktop .card-title {
     margin-top: 150px !important;
   }
+
+  /* Styles for Footer for tablet & desktop screens */
+  .footer-desktop .texts {
+    font-size: 21px;
+  }
+}
+
+/* Styles for screens at 1200px & above */
+@media only screen and (min-width: 1200px){
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
+    position: relative;
+    left: 530px;
+  }
+
+  .section-3-desktop .card-title {
+    margin-top: 190px !important;
+  }
+
+  /* Styles for Footer for tablet & desktop screens */
+  .footer-desktop .texts {
+    font-size: 21px;
+  }
 }
 
 /* Styles for screens at 1280px & above */
@@ -646,18 +689,10 @@ body {
     width: 30%;
     height: 30%;
   }
-}
 
-/* Styles for screens at 1200px & above */
-@media only screen and (min-width: 1200px){
-  /* Styles for Section 3 | Featured work for tablet & desktop screens */
-  .section-3-desktop .heading::after {
-    position: relative;
-    left: 530px;
-  }
-
-  .section-3-desktop .card-title {
-    margin-top: 190px !important;
+   /* Styles for Footer for tablet & desktop screens */
+   .footer-desktop .texts {
+    font-size: 24px;
   }
 }
 
@@ -705,6 +740,16 @@ body {
   .section-3-desktop .card-title {
     margin-top: 250px !important;
     font-size: 3.5rem !important;
+  }
+
+   /* Styles for Footer for tablet & desktop screens */
+   .footer-desktop .chelmerrox-photography-logo {
+    width: 40%;
+    height: 93%;
+  }
+
+   .footer-desktop .texts {
+    font-size: 27px;
   }
 }
 
@@ -760,5 +805,10 @@ body {
   .section-3-desktop .card-title {
     margin-top: 250px !important;
     font-size: 4rem !important;
+  }
+
+  /* Styles for Footer for tablet & desktop screens */
+  .footer-desktop .texts {
+    font-size: 30px;
   }
 }

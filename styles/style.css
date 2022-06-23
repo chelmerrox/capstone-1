@@ -1019,7 +1019,7 @@ body {
     width: 10%;
     position: relative;
     top: 18px;
-    left: 822px;
+    left: 812px;
   }
 
   .section-2-1-desktop .row {
@@ -1040,7 +1040,7 @@ body {
   /* Styles for Section 3 | Featured work for tablet & desktop screens */
   .section-3-desktop .heading::after {
     position: relative;
-    left: 782px;
+    left: 758px;
   }
 
   .section-3-desktop .texts {
@@ -1067,7 +1067,7 @@ body {
   .section-4-desktop .heading::after {
     width: 10%;
     position: relative;
-    left: 814px;
+    left: 795px;
   }
 
   .section-4-1-desktop .tourism-fiji-logo {

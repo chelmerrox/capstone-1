@@ -1022,6 +1022,11 @@ body {
     left: 822px;
   }
 
+  .section-2-1-desktop .row {
+    position: relative;
+    left: 82px;
+  }
+
   .section-2-1-icon22,
   .section-2-1-icon44 {
     width: 65%;

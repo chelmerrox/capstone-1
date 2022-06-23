@@ -1,0 +1,1146 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;  /* for Google Chrome and Apple Safari */
+  -moz-box-sizing: border-box;    /* for Mozilla Firefox */
+  -ms-box-sizing: border-box;   /* for Microsoft's Internet Explorer */
+  box-sizing: border-box;       /* box-sizing is a property allows us to change exactly how the box-model works  */
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+
+  /*  position: relative; */
+  min-height: 100vh;  /* vh (viewport height as unit of measure)) */
+  margin: 0;
+}
+
+@font-face {
+  font-family: Cocogoose;
+  src: url('../font-families/Cocogoose\ Pro-trial.ttf');
+}
+
+.cocogoose-font {
+  font-family: Cocogoose, sans-serif;
+}
+
+.lato-font {
+  font-family: 'Lato', sans-serif;
+}
+
+.font-darkgrey {
+  color: #272a31;
+}
+
+.font-lightgrey {
+  color: #d3d3d3;
+}
+
+.font-orange {
+  color: #ec5242;
+}
+
+.bg-darkgrey {
+  background-color: #272a31;
+}
+
+.bg-lightgrey {
+  background-color: #d3d3d3;
+}
+
+.bg-orange {
+  background-color: #ec5242;
+}
+
+.bg-lightergrey {
+  background-color: #f1eeee;
+}
+
+.border-darkgrey {
+  border: 2px solid #272a31;
+}
+
+.border-lightgrey {
+  border: 2px solid #d3d3d3;
+}
+
+.border-orange {
+  border: 2px solid #ec5242;
+}
+
+.border-white {
+  border: 3px solid white;
+}
+
+/* Styles for navbar */
+.nav-mobile .nav-menu-mobile .nav-item-mobile {
+  list-style: none;
+}
+
+.nav-mobile .nav-menu-mobile .nav-item-mobile .nav-link-mobile {
+  color: #1a2236;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 29px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Styles for screens at 319px & below */
+@media only screen and (max-width: 319px) {
+  /* Styles for navbar */
+  .hamburger {
+    display: block;
+    margin-top: -6px;
+    margin-right: 14px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    position: fixed;
+    top: 21.5px;
+    left: 233px;
+    z-index: 10;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    position: fixed;
+    top: 38px;
+    left: 232px;
+    z-index: 10;
+  }
+
+  .nav-menu-mobile {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1;
+  }
+
+  .nav-item-mobile {
+    margin: 16px 0;
+  }
+
+  .nav-menu-mobile.active {
+    left: 0;
+  }
+
+  /* Styles for Section 1 | Headline section for mobile screens */
+  .section-1-mobile {
+    position: relative; /* needed for transparent background */
+    background-color: white; /* needed for transparent background */
+    width: 110%;
+    height: 100%;
+  }
+
+  /* Add transparent background */
+  .section-1-mobile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    background-image: url("../images/image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* needed for transparent background */
+  .section-1-1-mobile,
+  .section-1-2-mobile,
+  .section-1-3-mobile {
+    position: relative;
+  }
+
+  /* The h1 tag for section-1-1-mobile */
+  .section-1-1-mobile .heading {
+    background-image: url("../images/image2.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 29px;
+  }
+
+  /* Styles for Section 2 | Photography Niche for mobile screens */
+  .section-2-mobile {
+    width: 110%;
+    height: 100%;
+  }
+
+  .section-2-mobile .heading {
+    color: white;
+  }
+
+  .section-2-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 110px;
+  }
+
+  .section-2-1-mobile .title {
+    font-size: 14px;
+  }
+
+  .section-2-1-1-mobile,
+  .section-2-1-2-mobile,
+  .section-2-1-3-mobile,
+  .section-2-1-4-mobile,
+  .section-2-1-5-mobile {
+    border: 1px solid #6b7385;
+    background-color: #6b7385;
+  }
+
+  .section-2-mobile .description {
+    font-size: 13px;
+  }
+
+  .section-2-mobile .contact-us-btn {
+    color: white;
+  }
+
+  .section-2-mobile .contact-us-btn:hover {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    background-color: white;
+  }
+
+  .section-2-mobile .contact-us-btn:active {
+    border: 4px solid #ec5242;
+  }
+
+  /* Styles for Section 3 | Featured work for mobile screens */
+  .section-3-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 110px;
+  }
+
+  .section-3-mobile .featured-imgs {
+    width: 35%;
+    height: 35%;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: -26px -23px 5px -2px rgba(0, 0, 0, 0.75);
+  }
+
+  .section-3-mobile .img-name {
+    font-size: 14px;
+  }
+
+  .section-3-mobile .location-and-year {
+    font-size: 11px;
+  }
+
+  .section-3-mobile .location-and-year::after {
+    content: "";
+    border-bottom: 1px solid #d3d3d3;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 4px;
+    left: 2px;
+  }
+
+  .section-3-mobile .img-description {
+    font-size: 9px;
+  }
+
+  /* Styles for Section 4 | Partners for mobile screens */
+  .section-4-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 110px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
+    width: 53%;
+    height: 86%;
+  }
+
+  .footer-mobile-desktop .texts {
+    font-size: 10px;
+  }
+}
+
+/* Styles for screens at 320px & above */
+@media only screen and (min-width: 320px) {
+  /* Styles for navbar */
+  .hamburger {
+    display: block;
+    margin-top: -6px;
+    margin-right: 14px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    position: fixed;
+    top: 21.5px;
+    left: 319px;
+    z-index: 10;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    position: fixed;
+    top: 38px;
+    left: 318px;
+    z-index: 10;
+  }
+
+  .nav-menu-mobile {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1;
+  }
+
+  .nav-item-mobile {
+    margin: 16px 0;
+  }
+
+  .nav-menu-mobile.active {
+    left: 0;
+  }
+
+  /* Styles for Section 1 | Headline section for mobile screens */
+  .section-1-mobile {
+    position: relative; /* needed for transparent background */
+    background-color: white; /* needed for transparent background */
+    width: 110%;
+    height: 100%;
+  }
+
+  /* Add transparent background */
+  .section-1-mobile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    background-image: url("../images/image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* needed for transparent background */
+  .section-1-1-mobile,
+  .section-1-2-mobile,
+  .section-1-3-mobile {
+    position: relative;
+  }
+
+  /* The h1 tag for section-1-1-mobile */
+  .section-1-1-mobile .heading {
+    background-image: url("../images/image2.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+  }
+
+  /* Styles for Section 2 | Photography Niche */
+  .section-2-mobile {
+    width: 110%;
+  }
+
+  .section-2-mobile .heading {
+    color: white;
+  }
+
+  .section-2-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 150px;
+  }
+
+  .section-2-1-1-mobile,
+  .section-2-1-2-mobile,
+  .section-2-1-3-mobile,
+  .section-2-1-4-mobile,
+  .section-2-1-5-mobile {
+    border: 1px solid #6b7385;
+    background-color: #6b7385;
+  }
+
+  .section-2-mobile .contact-us-btn {
+    color: white;
+  }
+
+  .section-2-mobile .contact-us-btn:hover {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    background-color: white;
+  }
+
+  .section-2-mobile .contact-us-btn:active {
+    border: 4px solid #ec5242;
+  }
+
+  /* Styles for Section 3 | Featured Work for mobile screens */
+  .section-3-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 150px;
+  }
+
+  .section-3-mobile .featured-imgs {
+    width: 35%;
+    height: 35%;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: -26px -23px 5px -2px rgba(0, 0, 0, 0.75);
+  }
+
+  .section-3-mobile .img-name {
+    font-size: 19px;
+  }
+
+  .section-3-mobile .location-and-year {
+    font-size: 13px;
+  }
+
+  .section-3-mobile .location-and-year::after {
+    content: "";
+    border-bottom: 1px solid #d3d3d3;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 4px;
+    left: 2px;
+  }
+
+  .section-3-mobile .img-description {
+    font-size: 11px;
+  }
+
+  /* Styles for Section 4 | Partners for mobile screens */
+  .section-4-mobile {
+    width: 110%;
+  }
+
+  .section-4-mobile .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 150px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
+    width: 40%;
+    height: 99%;
+  }
+
+  .footer-mobile-desktop .texts {
+    font-size: 12px;
+  }
+}
+
+/* Styles for screens at 768px & above */
+@media only screen and (min-width: 768px) {
+  /* Styles for navbar */
+  .nav-desktop {
+    width: 100%;
+  }
+
+  .nav-desktop-2 .nav-desktop-2-logo-link {
+    width: 37%;
+  }
+
+  .nav-desktop-2 .chelmerrox-photography-logo {
+    width: 33%;
+    height: 33%;
+  }
+
+  .section-2-desktop .contact-us-btn {
+    color: white;
+  }
+
+  .nav-desktop-2 .contact-us-btn:hover {
+    background-color: #ec5242;
+    color: white;
+    animation: shake 2s linear infinite;
+  }
+
+  @keyframes shake {
+    0%,
+    7% {
+      transform: rotateZ(0);
+    }
+
+    15% {
+      transform: rotateZ(-15deg);
+    }
+
+    20% {
+      transform: rotateZ(10deg);
+    }
+
+    25% {
+      transform: rotateZ(-10deg);
+    }
+
+    30% {
+      transform: rotateZ(6deg);
+    }
+
+    35% {
+      transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+      transform: rotateZ(0);
+    }
+  }
+
+  .nav-desktop-2 .contact-us-btn:active {
+    font-weight: bolder;
+  }
+
+  /* Styles for Section 1 | Headline section for tablet & desktop screens */
+  .section-1-desktop {
+    position: relative; /* needed for transparent background */
+    background-color: white; /* needed for transparent background */
+    width: 103%;
+    height: 100%;
+    padding: 150px;
+  }
+
+  /* Add transparent background */
+  .section-1-desktop::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    background-image: url("../images/image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* needed for transparent background */
+  .section-1-1-desktop,
+  .section-1-2-desktop,
+  .section-1-3-desktop {
+    position: relative;
+  }
+
+  /* The h1 tag for section-1-1-desktop */
+  .section-1-1-desktop .heading {
+    background-image: url("../images/image2.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 63px;
+  }
+
+  /* Styles for Section2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 18px;
+    left: 307px;
+  }
+
+  .section-2-1-1-desktop,
+  .section-2-1-2-desktop,
+  .section-2-1-3-desktop,
+  .section-2-1-4-desktop,
+  .section-2-1-5-desktop {
+    border: 1px solid #6b7385;
+    background-color: #6b7385;
+  }
+
+  .section-2-1-1-desktop:hover,
+  .section-2-1-2-desktop:hover,
+  .section-2-1-3-desktop:hover,
+  .section-2-1-4-desktop:hover,
+  .section-2-1-5-desktop:hover {
+    border: 5px solid white;
+    animation-name: pop-out;
+    animation-duration: 4s;
+  }
+
+  @keyframes pop-out {
+    0% { background-color: #666; }
+
+    25% {
+      background-color: #999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    75% {
+      background-color: #aaa999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    100% {
+      background-color: #abb999;
+      box-shadow: 12px 12px 5px #000;
+    }
+  }
+
+  .section-2-1-icon11 {
+    width: 72%;
+  }
+
+  .section-2-1-icon22 {
+    width: 75%;
+  }
+
+  .section-2-1-icon33 {
+    width: 63%;
+  }
+
+  .section-2-1-icon44 {
+    width: 85%;
+  }
+
+  .section-2-1-icon55 {
+    width: 55%;
+  }
+
+  .section-2-desktop .contact-us-btn:hover {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    background-color: white;
+  }
+
+  .section-2-desktop .contact-us-btn:active {
+    border: 4px solid #ec5242;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 17px;
+    left: 280px;
+  }
+
+  .section-3-desktop .featured-imgs {
+    width: 50%;
+    height: 60%;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: -26px -23px 5px -2px rgba(0, 0, 0, 0.75);
+  }
+
+  .section-3-desktop .location-and-year::after {
+    content: "";
+    border-bottom: 1px solid #d3d3d3;
+    width: 25%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 2px;
+  }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading::after {
+    content: "";
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    display: flex;
+    position: relative;
+    top: 18px;
+    left: 307px;
+  }
+
+  .section-4-1-desktop .national-geographic-logo,
+  .section-4-1-desktop .google-logo,
+  .section-4-1-desktop .tourism-fiji-logo,
+  .section-4-1-desktop .the-westin-logo {
+    width: 21%;
+    height: 100%;
+  }
+
+  .section-4-1-desktop .fiji-water-logo {
+    width: 21%;
+    height: 48%;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
+    width: 30%;
+    height: 90%;
+  }
+
+  .footer-mobile-desktop .texts {
+    font-size: 14px;
+  }
+}
+
+/* Styles for screens at 912px & above */
+@media only screen and (min-width: 912px) {
+  /* Styles for navbar */
+  .nav-desktop {
+    width: 100.5%;
+  }
+
+  .nav-desktop-2 .nav-desktop-2-logo-link {
+    width: 46%;
+  }
+
+  .nav-desktop-2 .chelmerrox-photography-logo {
+    width: 29%;
+  }
+
+  /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop {
+    width: 103%;
+  }
+
+  .section-2-desktop .heading::after {
+    position: relative;
+    top: 18px;
+    left: 377px;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
+    position: relative;
+    top: 17px;
+    left: 340px;
+  }
+
+  .section-3-desktop .featured-imgs {
+    width: 65%;
+    height: 85%;
+  }
+
+  .section-3-desktop .img-name {
+    font-size: 1.9rem;
+  }
+
+  .section-3-desktop .location-and-year {
+    font-size: 1.3rem;
+  }
+
+  .section-3-desktop .location-and-year::after {
+    content: "";
+    border-bottom: 1px solid #d3d3d3;
+    width: 25%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 2px;
+  }
+
+  .section-3-desktop .img-description {
+    font-size: 1.3rem;
+  }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading::after {
+    position: relative;
+    left: 369px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
+    width: 35%;
+    height: 93%;
+  }
+
+  .footer-mobile-desktop .texts {
+    font-size: 19px;
+  }
+}
+
+/* Styles for screens at 1024px & above */
+@media only screen and (min-width: 1024px) {
+  /* Styles for navbar */
+  .nav-desktop-2 .nav-desktop-2-logo-link {
+    width: 35%;
+  }
+
+  /* Styles for Section 1 | Headline section for tablet & desktop screens */
+  .section-1-desktop {
+    width: 103%;
+  }
+
+  .section-1-1-desktop .heading {
+    font-size: 69px;
+  }
+
+  /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading::after {
+    position: relative;
+    top: 18px;
+    left: 427px;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
+    position: relative;
+    left: 390px;
+  }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop {
+    width: 103%;
+  }
+
+  .section-4-desktop .heading::after {
+    position: relative;
+    left: 419px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .texts {
+    font-size: 21px;
+  }
+}
+
+/* Styles for screens at 1280px & above */
+@media only screen and (min-width: 1280px) {
+  /* Styles for navbar */
+  .nav-desktop {
+    width: 101%;
+  }
+
+  .nav-desktop-2 .chelmerrox-photography-logo {
+    width: 24%;
+  }
+
+  /* Styles for Section 1 | Headline section for tablet & desktop screens */
+  .section-1-desktop {
+    width: 103%;
+  }
+
+  .section-1-1-desktop .heading {
+    font-size: 92px;
+  }
+
+  .section-1-2-desktop .text {
+    font-size: 1.55rem !important;
+  }
+
+  .section-1-3-desktop #smartphone-photography-text {
+    font-size: 3.15rem !important;
+  }
+
+  .section-1-3-desktop .description {
+    font-size: 2.2rem !important;
+  }
+
+  /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading::after {
+    position: relative;
+    top: 18px;
+    left: 537px;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
+    position: relative;
+    left: 490px;
+  }
+
+  .section-3-desktop .featured-imgs {
+    width: 51%;
+    height: 77%;
+  }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading::after {
+    position: relative;
+    left: 519px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .texts {
+    font-size: 24px;
+  }
+}
+
+/* Styles for screens at 1500px & above */
+@media only screen and (min-width: 1500px) {
+  /* Styles for navbar */
+  .nav-desktop {
+    width: 101.5%;
+  }
+
+  /* Styles for Section 1 | Headline for tablet & desktop screens */
+  .section-1-desktop {
+    width: 103.1%;
+  }
+
+  /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop {
+    width: 103%;
+  }
+
+  .section-2-desktop .heading {
+    font-size: 2.6rem;
+  }
+
+  .section-2-desktop .heading::after {
+    position: relative;
+    top: 18px;
+    left: 617px;
+  }
+
+  .section-2-1-icon22,
+  .section-2-1-icon44 {
+    width: 66%;
+  }
+
+  .section-2-1-icon33 {
+    width: 74%;
+  }
+
+  .section-2-1-icon55 {
+    margin-top: 14px;
+  }
+
+  .section-2-1-desktop .title {
+    font-size: 2rem;
+  }
+
+  .section-2-1-desktop .description {
+    font-size: 1.5rem;
+  }
+
+  .section-2-desktop .contact-us-btn {
+    font-size: 2rem;
+    padding-top: 60px;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading {
+    font-size: 2.6rem;
+  }
+
+  .section-3-desktop .heading::after {
+    width: 10%;
+    position: relative;
+    left: 630px;
+  }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading {
+    font-size: 2.6rem;
+  }
+
+  .section-4-desktop .heading::after {
+    position: relative;
+    left: 619px;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .chelmerrox-photography-logo {
+    width: 40%;
+    height: 93%;
+  }
+
+  .footer-mobile-desktop .texts {
+    font-size: 27px;
+  }
+}
+
+/* Styles for screens at 1800px & above */
+@media only screen and (min-width: 1800px) {
+  /* Styles for navbar */
+  .nav-desktop-1-links {
+    position: relative;
+    right: 78px;
+  }
+
+  /* Styles for Section 1 | Headline section for tablet & desktop screens */
+  .section-1-desktop {
+    width: 103%;
+  }
+
+  .section-1-1-desktop .text {
+    font-size: 70px !important;
+  }
+
+  .section-1-1-desktop .heading {
+    font-size: 112px;
+  }
+
+  .section-1-2-desktop .text {
+    font-size: 2.2rem !important;
+  }
+
+  .section-1-3-desktop {
+    margin-top: 54px !important;
+  }
+
+  .section-1-3-desktop #smartphone-photography-text {
+    font-size: 3.35rem !important;
+  }
+
+  .section-1-3-desktop .description {
+    font-size: 3rem !important;
+  }
+
+  /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop .heading {
+    font-size: 2.7rem;
+  }
+
+  .section-2-desktop .heading::after {
+    width: 10%;
+    position: relative;
+    top: 18px;
+    left: 812px;
+  }
+
+  .section-2-1-desktop .row {
+    position: relative;
+    left: 82px;
+  }
+
+  .section-2-1-icon22,
+  .section-2-1-icon44 {
+    width: 65%;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading {
+    font-size: 2.7rem;
+  }
+
+  /* Styles for Section 3 | Featured work for tablet & desktop screens */
+  .section-3-desktop .heading::after {
+    position: relative;
+    left: 758px;
+  }
+
+  .section-3-desktop .texts {
+    margin-left: -100px;
+  }
+
+  .section-3-desktop .img-name {
+    font-size: 2.5rem;
+  }
+
+  .section-3-desktop .location-and-year {
+    font-size: 2rem;
+  }
+
+  .section-3-desktop .img-description {
+    font-size: 1.5rem;
+  }
+
+  /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop .heading {
+    font-size: 2.7rem;
+  }
+
+  .section-4-desktop .heading::after {
+    width: 10%;
+    position: relative;
+    left: 795px;
+  }
+
+  .section-4-1-desktop .tourism-fiji-logo {
+    width: 17%;
+    height: 100%;
+  }
+
+  /* Styles for Footer for mobile, tablet & desktop screens */
+  .footer-mobile-desktop .texts {
+    font-size: 30px;
+  }
+}

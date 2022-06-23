@@ -9,17 +9,20 @@
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap v5.2.0-beta1
 - Git
-
-## Live Demo
-
-[Previous Live Demo Link](https://raw.githack.com/chelmerrox/capstone-1/main/index.html)
-
-[GitHub Pages Link](https://chelmerrox.github.io/capstone-1/)
 
 ## Preview
 
 ![Website preview](images/preview.png)
+
+## Live Demo
+
+[Live Demo Link](https://raw.githack.com/chelmerrox/capstone-1/capstone-1/index.html)
+
+## Video presentation
+
+[My video presentation](https://www.loom.com/share/f70f99e9c9b74be790ab7e49c87690da)
 
 ## Getting Started
 
@@ -80,7 +83,7 @@ Give a ⭐️ if you like this project!
 - Morning Session Teams
 - Stand-Up Teams
 - Microverse TSEs
-- Figma 
+- Cindy Shin from Behance for the design guidelines
 
 ## 📝 License
 

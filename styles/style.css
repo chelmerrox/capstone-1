@@ -525,6 +525,10 @@ body {
 /* Styles for screens at 768px & above */
 @media only screen and (min-width: 768px) {
   /* Styles for navbar */
+  .nav-desktop {
+    width: 100%;
+  }
+
   .nav-desktop-2 .nav-desktop-2-logo-link {
     width: 37%;
   }
@@ -738,6 +742,10 @@ body {
 /* Styles for screens at 912px & above */
 @media only screen and (min-width: 912px) {
   /* Styles for navbar */
+  .nav-desktop {
+    width: 100.5%;
+  }
+
   .nav-desktop-2 .nav-desktop-2-logo-link {
     width: 46%;
   }
@@ -747,6 +755,10 @@ body {
   }
 
   /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop {
+    width: 103%;
+  }
+
   .section-2-desktop .heading::after {
     position: relative;
     top: 18px;
@@ -813,7 +825,7 @@ body {
 
   /* Styles for Section 1 | Headline section for tablet & desktop screens */
   .section-1-desktop {
-    width: 102.5%;
+    width: 103%;
   }
 
   .section-1-1-desktop .heading {
@@ -834,6 +846,10 @@ body {
   }
 
   /* Styles for Section 4 | Partners for tablet & desktop screens */
+  .section-4-desktop {
+    width: 103%;
+  }
+
   .section-4-desktop .heading::after {
     position: relative;
     left: 419px;
@@ -848,13 +864,17 @@ body {
 /* Styles for screens at 1280px & above */
 @media only screen and (min-width: 1280px) {
   /* Styles for navbar */
+  .nav-desktop {
+    width: 101%;
+  }
+
   .nav-desktop-2 .chelmerrox-photography-logo {
     width: 24%;
   }
 
   /* Styles for Section 1 | Headline section for tablet & desktop screens */
   .section-1-desktop {
-    width: 102%;
+    width: 103%;
   }
 
   .section-1-1-desktop .heading {
@@ -905,12 +925,21 @@ body {
 
 /* Styles for screens at 1500px & above */
 @media only screen and (min-width: 1500px) {
-  /* Styles for Section 1 | Headline for tablet & desktop screens */
-  .section-1-desktop {
+  /* Styles for navbar */
+  .nav-desktop {
     width: 101.5%;
   }
 
+  /* Styles for Section 1 | Headline for tablet & desktop screens */
+  .section-1-desktop {
+    width: 103.1%;
+  }
+
   /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
+  .section-2-desktop {
+    width: 103%;
+  }
+
   .section-2-desktop .heading {
     font-size: 2.6rem;
   }
@@ -981,9 +1010,15 @@ body {
 
 /* Styles for screens at 1800px & above */
 @media only screen and (min-width: 1800px) {
+  /* Styles for navbar */
+  .nav-desktop-1-links {
+    position: relative;
+    right: 78px;
+  }
+
   /* Styles for Section 1 | Headline section for tablet & desktop screens */
   .section-1-desktop {
-    width: 101.2%;
+    width: 103%;
   }
 
   .section-1-1-desktop .text {

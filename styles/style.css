@@ -645,6 +645,35 @@ body {
     background-color: #6b7385;
   }
 
+  .section-2-1-1-desktop:hover,
+  .section-2-1-2-desktop:hover,
+  .section-2-1-3-desktop:hover,
+  .section-2-1-4-desktop:hover,
+  .section-2-1-5-desktop:hover {
+    border: 5px solid white;
+    animation-name: pop-out;
+    animation-duration: 4s;
+  }
+
+  @keyframes pop-out {
+    0% { background-color: #666; }
+
+    25% {
+      background-color: #999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    75% {
+      background-color: #aaa999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    100% {
+      background-color: #abb999;
+      box-shadow: 12px 12px 5px #000;
+    }
+  }
+
   .section-2-1-icon11 {
     width: 72%;
   }

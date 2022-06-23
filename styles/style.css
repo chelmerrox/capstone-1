@@ -1010,9 +1010,9 @@ body {
     font-size: 3.2rem !important;
   }
 
-  /* Styles for Section2 | Photography Niche for tablet & desktop screens */
+  /* Styles for Section 2 | Photography Niche for tablet & desktop screens */
   .section-2-desktop .heading {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 
   .section-2-desktop .heading::after {
@@ -1029,7 +1029,7 @@ body {
 
   /* Styles for Section 3 | Featured work for tablet & desktop screens */
   .section-3-desktop .heading {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 
   /* Styles for Section 3 | Featured work for tablet & desktop screens */
@@ -1056,7 +1056,7 @@ body {
 
   /* Styles for Section 4 | Partners for tablet & desktop screens */
   .section-4-desktop .heading {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 
   .section-4-desktop .heading::after {

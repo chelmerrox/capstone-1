@@ -1065,6 +1065,11 @@ body {
     left: 789px;
   }
 
+  .section-4-1-desktop .tourism-fiji-logo {
+    width: 17%;
+    height: 100%;
+  }
+
   /* Styles for Footer for mobile, tablet & desktop screens */
   .footer-mobile-desktop .texts {
     font-size: 30px;

@@ -169,6 +169,7 @@ body {
     left: 0;
   }
 
+  .about-link-mobile,
   .contact-us-link-mobile {
     color: #ec5242 !important;
   }
@@ -325,6 +326,7 @@ body {
     height: 100%;
   }
 
+  .about-link-mobile,
   .contact-us-link-mobile {
     color: #ec5242 !important;
   }

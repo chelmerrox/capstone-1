@@ -155,7 +155,10 @@ body {
     gap: 0;
     flex-direction: column;
     background-color: white;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(9px);
     width: 100%;
+    height: 98%;
     text-align: center;
     transition: 0.3s;
     z-index: 1;
@@ -364,7 +367,10 @@ body {
     gap: 0;
     flex-direction: column;
     background-color: white;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(9px);
     width: 100%;
+    height: 98%;
     text-align: center;
     transition: 0.3s;
     z-index: 1;

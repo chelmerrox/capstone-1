@@ -78,8 +78,7 @@ Give a ⭐️ if you like this project!
 - My God & family
 - Microverse
 - Coding & Learning Partners: 
-  1. [Alphayo Wakarindi](https://github.com/alphayowakarindi)
-  2. [Pierre Celestin Moussa](https://github.com/Piercel2022) 
+  1. [Pierre Celestin Moussa](https://github.com/Piercel2022) 
 - Morning Session Teams
 - Stand-Up Teams
 - Microverse TSEs

@@ -169,6 +169,11 @@ body {
     left: 0;
   }
 
+  .home-link-mobile,
+  .contact-us-link-mobile {
+    color: #ec5242 !important;
+  }
+
   /* Styles for Section 1 | Headline section for mobile screens */
   .section-1-mobile {
     position: relative; /* needed for transparent background */
@@ -371,6 +376,11 @@ body {
 
   .nav-menu-mobile.active {
     left: 0;
+  }
+
+  .home-link-mobile,
+  .contact-us-link-mobile {
+    color: #ec5242 !important;
   }
 
   /* Styles for Section 1 | Headline section for mobile screens */

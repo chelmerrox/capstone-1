@@ -138,6 +138,7 @@ body {
     top: 21.5px;
     left: 233px;
     z-index: 10;
+    background-color: white;
   }
 
   .hamburger.active .bar:nth-child(3) {
@@ -146,6 +147,7 @@ body {
     top: 38px;
     left: 232px;
     z-index: 10;
+    background-color: white;
   }
 
   .nav-menu-mobile {
@@ -154,7 +156,7 @@ body {
     top: 0;
     gap: 0;
     flex-direction: column;
-    background-color: white;
+    background-color: #ec5242;
     mix-blend-mode: multiply;
     backdrop-filter: blur(9px);
     width: 100%;
@@ -174,7 +176,7 @@ body {
 
   .about-link-mobile,
   .contact-us-link-mobile {
-    color: #ec5242 !important;
+    color: white !important;
   }
 
   /* Styles for Section 1 | Headline section for mobile screens */
@@ -290,6 +292,7 @@ body {
     top: 21.5px;
     left: 319px;
     z-index: 10;
+    background-color: white;
   }
 
   .hamburger.active .bar:nth-child(3) {
@@ -298,6 +301,7 @@ body {
     top: 38px;
     left: 318px;
     z-index: 10;
+    background-color: white;
   }
 
   .nav-menu-mobile {
@@ -306,7 +310,7 @@ body {
     top: 0;
     gap: 0;
     flex-direction: column;
-    background-color: white;
+    background-color: #ec5242;
     mix-blend-mode: multiply;
     backdrop-filter: blur(9px);
     width: 100%;
@@ -324,17 +328,17 @@ body {
     left: 0;
   }
 
+  .about-link-mobile,
+  .contact-us-link-mobile {
+    color: white !important;
+  }
+
   /* Styles for Section 1 | Headline section for mobile screens */
   .section-1-mobile {
     position: relative; /* needed for transparent background */
     background-color: white; /* needed for transparent background */
     width: 110%;
     height: 100%;
-  }
-
-  .about-link-mobile,
-  .contact-us-link-mobile {
-    color: #ec5242 !important;
   }
 
   /* Add transparent background */

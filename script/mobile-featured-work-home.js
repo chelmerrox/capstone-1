@@ -36,9 +36,9 @@ const featuredWork = [
   {
     num: 5,
     image: './images/image7.jpg',
-    title: 'Micronesia',
+    title: 'Marshallese Traditional Necklace',
     locationAndYear: 'Oceania ◽ 2018',
-    description: 'A Micronesia traditional necklace.',
+    description: 'A traditional necklace from the Marshall Islands.',
   },
   {
     num: 6,

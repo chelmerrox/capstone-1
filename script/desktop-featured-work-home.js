@@ -15,9 +15,9 @@ const featuredWork1 = [
   {
     num1: [2, 5],
     image1: ['./images/image4.jpg', './images/image7.jpg'],
-    titles: ['Dark Azalea', 'Micronesia'],
+    titles: ['Dark Azalea', 'Marshallese Traditional Necklace'],
     locationAndYear1: ['Dravuni village, Tailevu ◽ 2017', 'Oceania ◽ 2018'],
-    description1: ['A dark pink azalea', 'A Micronesian traditional necklace.'],
+    description1: ['A dark pink azalea', 'A traditional necklace from the Marshall Islands.'],
   },
   {
     num1: [3, 6],
